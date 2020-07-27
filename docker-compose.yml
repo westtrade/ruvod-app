@@ -1,0 +1,14 @@
+version: "3.2"
+
+networks:
+  testnet:
+    ipam:
+      config:
+        - subnet: "172.28.3.0/16"
+
+services:
+  database:
+    image: mvertes/alpine-mongo
+    networks:
+      testnet:
+        ipv4_address: 172.28.3.1

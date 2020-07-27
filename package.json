@@ -1,0 +1,11 @@
+{
+  "name": "ruvod-app",
+  "version": "1.0.0",
+  "main": "src/up.ts",
+  "author": "Popov Gennadiy <popov.gennadiy.87@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv-extended": "^2.8.0"
+  }
+}
